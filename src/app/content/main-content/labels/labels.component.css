@@ -1,0 +1,21 @@
+.labels {
+  display: flex;
+  align-items: center;
+}
+
+.labels .active-projects, .labels .messenger {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.labels .active-projects svg, .labels .messenger svg {
+  margin-right: 5px;
+}
+
+.labels .search {
+  margin-left: auto;
+  padding: 10px;
+}/*# sourceMappingURL=labels.component.css.map */

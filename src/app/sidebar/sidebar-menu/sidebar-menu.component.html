@@ -1,0 +1,15 @@
+<div class="sidebar">
+    <app-user-icon></app-user-icon>
+    <div class="menu-items">
+      <div *ngFor="let item of menuItems" (click)="setActive(item.name)" [class.active]="activeItem === item.name">
+        <ng-container [ngSwitch]="item.name">
+          <app-board *ngSwitchCase="'board'"></app-board>
+          <app-projects *ngSwitchCase="'projects'"></app-projects>
+          <app-settings *ngSwitchCase="'settings'"></app-settings>
+          <app-upgrade *ngSwitchCase="'upgrade'"></app-upgrade>
+          <app-logout *ngSwitchCase="'logout'"></app-logout>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+  

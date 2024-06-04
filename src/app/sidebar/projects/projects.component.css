@@ -1,0 +1,58 @@
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.menu-item svg {
+  margin-bottom: 5px;
+}
+
+.menu-item span {
+  font-size: 14px;
+}
+
+.bi-9-circle-fill {
+  position: absolute;
+  top: 5px;
+  padding-left: 5px;
+  margin-bottom: 3px;
+}
+
+.nine {
+  z-index: 3;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 35px;
+  width: 20px;
+  height: 20px;
+}
+
+.bi-bi-justify {
+  position: relative;
+  margin-top: 9px;
+  height: 27px;
+  width: 27px;
+}
+
+.bi-bi-three-dots {
+  height: 20px;
+  width: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.text-icon {
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.34);
+}
+
+.text-icon-2 {
+  color: #ffffff;
+}/*# sourceMappingURL=projects.component.css.map */

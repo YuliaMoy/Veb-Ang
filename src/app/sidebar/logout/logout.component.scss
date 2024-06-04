@@ -1,0 +1,42 @@
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  .menu-item svg {
+    margin-bottom: 5px;
+  }
+  
+  .menu-item span {
+    font-size: 14px;
+  }
+  
+  .text-icon-5{
+    color: #ffffff;
+}
+
+.bi-bi-three-dots {
+    height: 20px;
+    width: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text-icon {
+    // color: #595959;
+    font-size: 16px;
+    line-height: 37px;
+    font-weight: 400;
+    letter-spacing: -0.025em;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.34);
+}
+
+.bi-bi-power{
+    align-self: center;
+    height: 27px;
+    width: 27px;
+}
